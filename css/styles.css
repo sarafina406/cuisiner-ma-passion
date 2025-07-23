@@ -1,0 +1,375 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+* {
+  font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header img {
+    width: 100px;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+section.top-page {
+    background: url('../images/afro.jpg');
+    height: 80vh;
+    background: cover;
+    padding: 10px;
+}
+
+/* mon menu */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 40px;  
+}
+
+nav.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.landing-page {
+    padding: 160px 20px; 
+}
+
+.big-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+}
+
+.Scroll-down {
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    bottom: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+/* Services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.delivery-icone {
+    color: rgb(180, 71, 71);
+    font-size: 50px;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+} 
+
+/* love story */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.section-title::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(180, 71, 71);
+    width: 50px;
+    height: 9px;
+    bottom: 0px;
+}
+
+.bests-items {
+    margin: 40px;
+}
+
+.love-story {
+    background-color: aqua;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.story-box {
+    background-size: cover;      /* pour remplir le bloc */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.no-grid {
+    min-width: 250px;
+    height: 300px;
+    flex: 1;
+}
+
+.story1 {
+    background-image: url(../images/a1.jpg);
+
+}
+
+.story2 {
+    background-image: url(../images/a13.jpg);
+}
+
+.story3 {
+    background-image: url(../images/a14.jpg);
+}
+
+.story4 {
+    background-image: url(../images/a12.jpg);
+}
+
+.story-details {
+    background-color: #FFFFFFDF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 20px;
+}
+
+.story-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 2px;
+}
+
+.story-motivation {
+    color: rgb(180, 71, 71);
+    font-weight: 700;
+    line-height: 2px;
+    font-size: 12px;
+}
+
+/* Mes recettes */
+
+.all-recettes {
+    margin: 1OOpx;
+}
+
+.recette-grid {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
+}
+
+
+.recette-grid2 {
+    background-image: url(../images/yii.webp);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.recette-grid3 {
+    background-image: url(../images/ya.jpg);
+    grid-column: 3/5;
+}
+
+
+.recette-grid5 {
+    background-image: url(../images/ad.jpg);
+    grid-column: 3/4;
+
+}
+
+.recette-grid9 {
+    background-image: url(../images/si.jpg);
+}
+
+.recette-grid6 {
+    background-image: url(../images/cro.jpg);
+    grid-column: 1;
+}
+
+.recette-grid7 {
+    background-image: url(../images/go.jpeg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.recette-grid8 {
+    background-image: url(../images/afro.jpg);
+    
+}
+
+.small-title {
+    color:brown;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 0%;
+}
+
+/* pied de page */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+   font-weight: 600;
+
+}
+
+
+.cgv {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.exchange {
+    background-color: maroon;
+    width: 900px;
+    height: 40px;
+    font-weight: 600;
+}
+
+/* Ma page de recettes */
+
+/* TOP-CHRONO */
+
+.inspiration {
+    color: rgb(4, 128, 0);
+    width: 900px;
+    font-size: 50px;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.inspiration::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    background-color: black;
+    bottom: -10px;
+}
+
+.recette-name {
+   color:rgb(6, 95, 3);
+   background-color: yellow;
+   font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+}
+
+.NB {
+    color: red;
+    font-weight: 600;
+    list-style: none;
+}
+
+.yoyo {
+    font-size: larger;
+    font-weight: 600;
+    color:black;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+}
+
+.ingredient {
+    font-size: larger;
+    font-weight: 700;
+    position: relative;
+}
+
+.ingredient::before {
+    content: '';
+    background-color: rgb(6, 95, 3);
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;
+}
+
+.apport-nutrition {
+    font-size: larger;
+    font-weight: 700;
+    position: relative;
+}
+
+.apport-nutrition::before {
+    content: '';
+    background-color: rgb(6, 95, 3);
+    width: 185px;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+
+/* DEUX JOURS AU DESERT */
+
+.inspiration1 {
+    color: rgb(6, 95, 3);
+    width: 900px;
+    font-size: 50px;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.inspiration1::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    background-color: black;
+    bottom: -10px; 
+}
+
+
+/* POSE-TOI */
+
+.inspiration2 {
+    color: rgb(6, 95, 3);
+    width: 900px;
+    font-size: 50px;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.inspiration2::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    background-color: black;
+    bottom: -10px; 
+}
+
+/* Live page */
+
+.sara {
+    color: green;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+}
