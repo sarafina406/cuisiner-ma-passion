@@ -286,10 +286,15 @@ nav.nav a {
 }
 
 .yoyo {
-    font-size: larger;
+    
     font-weight: 600;
     color:black;
-    font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
+}
+
+.petits-apports {
+    color: green;
+    font-weight: 700;
+
 }
 
 .ingredient {
@@ -328,10 +333,10 @@ nav.nav a {
 
 .inspiration1 {
     color: rgb(6, 95, 3);
-    width: 900px;
-    font-size: 50px;
+    width: 600px;
+    font-size: 20px;
     font-family: 'Abril Fatface', Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
+    font-weight: 200;
     position: relative;
 }
 
