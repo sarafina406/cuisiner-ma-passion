@@ -20,7 +20,7 @@ header.header {
 }
 
 section.top-page {
-    background: url('../images/afro.jpg');
+    background: url('./images/afro.jpg');
     height: 80vh;
     background: cover;
     padding: 10px;
@@ -132,20 +132,20 @@ nav.nav a {
 }
 
 .story1 {
-    background-image: url(../images/a24.jpg);
+    background-image: url(./images/a24.jpg);
 
 }
 
 .story2 {
-    background-image: url(../images/a13.jpg);
+    background-image: url(./images/a13.jpg);
 }
 
 .story3 {
-    background-image: url(../images/a14.jpg);
+    background-image: url(./images/a14.jpg);
 }
 
 .story4 {
-    background-image: url(../images/a22.jpg);
+    background-image: url(./images/a22.jpg);
 }
 
 .story-details {
@@ -188,40 +188,40 @@ nav.nav a {
 
 
 .recette-grid2 {
-    background-image: url(../images/yii.webp);
+    background-image: url(./images/yii.webp);
     grid-column: 1/3;
     grid-row: 1/3;
 }
 
 .recette-grid3 {
-    background-image: url(../images/ya.jpg);
+    background-image: url(./images/ya.jpg);
     grid-column: 3/5;
 }
 
 
 .recette-grid5 {
-    background-image: url(../images/ad.jpg);
+    background-image: url(./images/ad.jpg);
     grid-column: 3/4;
 
 }
 
 .recette-grid9 {
-    background-image: url(../images/yo.jpg);
+    background-image: url(./images/yo.jpg);
 }
 
 .recette-grid6 {
-    background-image: url(../images/cro.jpg);
+    background-image: url(./images/cro.jpg);
     grid-column: 1;
 }
 
 .recette-grid7 {
-    background-image: url(../images/go.jpeg);
+    background-image: url(./images/go.jpeg);
     grid-column: 2/4;
     grid-row: 3/5;
 }
 
 .recette-grid8 {
-    background-image: url(../images/afro.jpg);
+    background-image: url(./images/afro.jpg);
     
 }
 
@@ -268,7 +268,7 @@ nav.nav a {
 /* Ma page de recettes */
 
 .recette-page {
-    background: url('../images/adidi.png') no-repeat center center;
+    background: url('./images/adidi.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
     padding: 5px;
@@ -367,7 +367,7 @@ nav.nav a {
 /* Love story-page */
 
 .story-page {
-    background: url('../images/ami.jpeg') repeat;
+    background: url('./images/ami.jpeg') repeat;
     background-size: auto;
     height: 60vh;
     padding: 10px;
@@ -415,7 +415,7 @@ nav.nav1 a {
 }
 
 .live-page {
-    background: url('../images/adada.webp') repeat;
+    background: url('./images/adada.webp') repeat;
     background-size: auto;
     height: 95vh;
     padding: 10px;
